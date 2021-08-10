@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>hunter</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+<div id="timer" class="timer"><p1>0 seconds</p1></div>
+<div id="hitcounter" class="hitcounter"><p1>0 hits</p1></div>
+
+    <script src="src/crosshair.js"></script>
+    <script src="src/background.js"></script>
+    <script src="src/enemy.js"></script>
+    <script src="src/main.js"></script>
+    <script src="src/timer.js" ></script>
+    <script src="src/hitcounter.js" ></script>
+
+
+<script>
+        const main = new Main();
+        const hitcount = new Hitcount();
+        const crosshair = new Crosshair();
+    </script>
+</body>
+</html>
+<!--
+anstehende Aufgaben:
+timer und hitcounter eigene js dateien
+-->
